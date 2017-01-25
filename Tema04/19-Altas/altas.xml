@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE altas SYSTEM "altas.dtd">
+<altas>
+  <fechas>
+    <fecha persona="p01">6</fecha>
+    <fecha persona="p02">4</fecha>
+    <fecha persona="p03">10</fecha>
+  </fechas>
+  <personas>
+    <persona id="p01">
+      <nombre>Jose</nombre>
+      <apellido>Masmano</apellido>
+    </persona>
+    <persona id="p02">
+      <nombre>Luz</nombre>
+      <apellido>García</apellido>
+      <apellido>Cruz</apellido>
+    </persona>
+    <persona id="p03">
+      <nombre>Elisa</nombre>
+      <apellido>Ramos</apellido>
+      <apellido>Lopez</apellido>
+    </persona>
+  </personas>
+</altas>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE colecta SYSTEM "colecta.dtd">
+<colecta objetivo="El cambio climático">
+  <donativos>
+    <donativo persona="p01">6</donativo>
+    <donativo persona="p02">4</donativo>
+    <donativo persona="p03">10</donativo>
+  </donativos>
+  <personas>
+    <persona id="p01">
+      <nombre>Pepe</nombre>
+      <apellido>García</apellido>
+    </persona>
+    <persona id="p02">
+      <nombre>Pepe</nombre>
+      <apellido>García</apellido>
+      <apellido>Mano</apellido>
+    </persona>
+    <persona id="p03">
+      <nombre>Yolanda</nombre>
+      <apellido>Ramos</apellido>
+      <apellido>Calvo</apellido>
+    </persona>
+  </personas>
+</colecta>

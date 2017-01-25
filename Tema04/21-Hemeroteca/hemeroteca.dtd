@@ -1,0 +1,28 @@
+<!ELEMENT hemeroteca (peticiones, fecha, socios, generos)>
+<!ELEMENT peticiones (peticion+)>
+<!ELEMENT peticion (num_socio, num_recogida, num_devolucion)>
+<!ATTLIST peticion
+          articulo IDREF #REQUIRED>
+<!ELEMENT num_socio (#PCDATA)>
+<!ELEMENT num_recogida (#PCDATA)>
+<!ELEMENT num_devolucion (#PCDATA)>
+<!ELEMENT fecha (recogidas, devoluciones)>
+<!ELEMENT recogidas (recogida+)>
+<!ELEMENT recogida (#PCDATA)>
+<!ATTLIST recogida
+          id ID #REQUIRED>
+<!ELEMENT devoluciones (devolucion+)>
+<!ELEMENT devolucion (#PCDATA)>
+<!ATTLIST devolucion
+          id ID #REQUIRED>
+<!ELEMENT socios (socio+)>
+<!ELEMENT socio (#PCDATA)>
+<!ATTLIST socio
+          id ID #REQUIRED>
+<!ELEMENT generos (genero+)>
+<!ELEMENT genero (nombre, publicacion)>
+<!ATTLIST genero
+          id ID #REQUIRED
+          tipo CDATA #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT publicacion (#PCDATA)>

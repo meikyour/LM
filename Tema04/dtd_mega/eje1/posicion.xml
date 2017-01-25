@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE posicion [
+<!ELEMENT posicion (x , y)>
+<!ELEMENT x (#PCDATA)>
+<!ELEMENT y (#PCDATA)>
+]>
+<posicion>
+<x>25</x>
+<y>70</y>
+</posicion>

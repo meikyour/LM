@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE lluvia SYSTEM "lluvia.dtd">
+<lluvia medida="milimetros">
+  <estacion id="b02">Meteosat</estacion>
+  <fecha>13/03/2016</fecha>  
+</lluvia>

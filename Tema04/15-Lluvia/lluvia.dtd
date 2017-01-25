@@ -1,0 +1,7 @@
+<!ELEMENT lluvia (estacion, fecha)>
+<!ATTLIST lluvia
+          medida CDATA #FIXED "milimetros">
+<!ELEMENT estacion (#PCDATA)>
+<!ATTLIST estacion
+          id ID #REQUIRED>
+<!ELEMENT fecha (#PCDATA)>

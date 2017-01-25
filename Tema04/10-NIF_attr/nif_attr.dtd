@@ -1,0 +1,5 @@
+<!ELEMENT nif (EMPTY)>
+<!ATTLIST nif 
+          numero CDATA>
+<!ATTLIST nif
+          letra CDATA>

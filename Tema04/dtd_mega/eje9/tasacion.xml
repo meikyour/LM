@@ -1,0 +1,8 @@
+﻿<?xml version = "1.0" ?>
+<!DOCTYPE tasacion SYSTEM "tasacion.dtd">
+<tasacion>
+<articulo id="a001" moneda="euros" cantidad="1.50">Leche</articulo>
+<articulo id="a002" moneda="euros" cantidad="2.50">Galletas</articulo>
+<articulo id="a004" moneda="euros" cantidad="1.00">Café</articulo>
+<articulo id="b052" moneda="euros" cantidad="0.50">Servilletas</articulo>
+</tasacion>

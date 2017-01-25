@@ -1,0 +1,6 @@
+<!ELEMENT evento (dia, mes, any)>
+<!ATTLIST evento
+          dia_semana CDATA #REQUIRED>
+<!ELEMENT dia (#PCDATA)>
+<!ELEMENT mes (#PCDATA)>
+<!ELEMENT any (#PCDATA)>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hemeroteca SYSTEM "hemeroteca.dtd">
+<hemeroteca>
+
+<socios>
+<socio id_socio="s001"/>
+</socios>
+
+<periodicos>
+<periodico id_periodico="p001" nombre="El Pais" fecha_publicacion="1/1/1970"/>
+</periodicos>
+
+<revistas>
+<revista id_revista="r001" nombre="Saber vivir" numero="208"/>
+</revistas>
+
+<peticiones>
+<peticion id_socio="s001" id_revista="r001" fecha_peticion="10/11/16" dias_prestamo="10"/>
+<peticion id_socio="s001" id_periodico="p001" fecha_peticion="10/11/16" dias_prestamo="10"/>
+</peticiones>
+
+</hemeroteca>

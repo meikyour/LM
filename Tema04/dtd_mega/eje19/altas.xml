@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE altas SYSTEM "altas.dtd">
+<altas>
+<any fecha="2014">
+<persona nif="12345A" nombre="Angel" fecha_nacimiento="1/9/98"/>
+<persona nif="15747B" nombre="Pastelero" fecha_nacimiento="10/11/16"/>
+</any>
+<any fecha="2015">
+</any>
+<any fecha="2016">
+<persona nif="89798C" nombre="Borja" fecha_nacimiento="9/1/16"/>
+</any>
+</altas>

@@ -1,0 +1,10 @@
+<!ELEMENT estaciones (estacion+)>
+<!ELEMENT estacion (datos+)>
+<!ATTLIST estacion
+id ID #REQUIRED>
+<!ELEMENT datos EMPTY>
+<!ATTLIST datos
+      id ID #REQUIRED
+      fecha CDATA #REQUIRED
+      precipitacion CDATA #REQUIRED
+      unidad CDATA #FIXED 'milimetros'>

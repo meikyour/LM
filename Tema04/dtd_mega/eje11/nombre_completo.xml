@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE personas SYSTEM "nombre_completo.dtd">
+<personas>
+<persona nombre="Angel" apellido1="Pastelero" apellido2="Borja"/>
+<persona nombre="Pepe" apellido1="Epep" apellido2=""/>
+<persona nombre="Pepe" apellido1=""/>
+</personas>

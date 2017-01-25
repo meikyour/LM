@@ -1,0 +1,5 @@
+<!ELEMENT fecha_attr EMPTY>
+<!ATTLIST fecha_attr
+          dia CDATA #REQUIRED
+          mes CDATA #REQUIRED
+          any CDATA #REQUIRED>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE centro SYSTEM "docencia.dtd">
+<centro>
+<clase id_clase="c001">
+<modulo id_modulo="m101" nombre_modulo="BD"/>
+</clase>
+<profesores>
+<profesor profesor_id="p005" nombre="Paco" id_modulo="m101" id_clase="c001"/>
+</profesores>
+</centro>

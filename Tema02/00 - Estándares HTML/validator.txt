@@ -1,0 +1,8 @@
+W3C Markup Validation Service
+https://validator.w3.org/
+
+freeformatter.com
+http://www.freeformatter.com/html-validator.html
+
+Validator.nu (X)HTML5 Validator (Living Validator)
+https://html5.validator.nu/

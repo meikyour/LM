@@ -1,0 +1,2 @@
+<!ENTITY titulo "La roca">
+<!ELEMENT titulo (#PCDATA)>

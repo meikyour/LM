@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pelicula SYSTEM "pelicula.dtd">
+<pelicula>
+<titulo>La roca</titulo>
+<genero>Fantasia</genero>
+<sinopsis>&entidad;</sinopsis>
+</pelicula>

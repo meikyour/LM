@@ -1,0 +1,25 @@
+<!ELEMENT hemeroteca (socios,periodicos,revistas,peticiones)>
+<!ELEMENT socios (socio+)>
+<!ELEMENT socio EMPTY>
+<!ATTLIST socio
+      id_socio ID #REQUIRED>
+<!ELEMENT periodicos (periodico+)>
+<!ELEMENT periodico EMPTY>
+<!ATTLIST periodico
+      id_periodico ID #REQUIRED
+      nombre CDATA #REQUIRED
+      fecha_publicacion CDATA #REQUIRED>
+<!ELEMENT revistas (revista+)>
+<!ELEMENT revista EMPTY>
+<!ATTLIST revista
+      id_revista ID #REQUIRED
+      nombre CDATA #REQUIRED
+      numero CDATA #REQUIRED>
+<!ELEMENT peticiones (peticion+)>
+<!ELEMENT peticion EMPTY>
+<!ATTLIST peticion
+      id_socio IDREF #REQUIRED
+      id_revista IDREF #IMPLIED 
+      id_periodico IDREF #IMPLIED
+      fecha_peticion CDATA #REQUIRED
+      dias_prestamo CDATA #REQUIRED>

@@ -1,0 +1,11 @@
+<!ELEMENT altas (fechas, personas)>
+<!ELEMENT fechas (fecha+)>
+<!ELEMENT fecha (#PCDATA)>
+<!ATTLIST fecha
+          persona IDREF #REQUIRED>
+<!ELEMENT personas (persona+)>
+<!ELEMENT persona (nombre, apellido, apellido?)>
+<!ATTLIST persona
+          id ID #REQUIRED>
+<!ELEMENT nombre   (#PCDATA)>
+<!ELEMENT apellido (#PCDATA)>

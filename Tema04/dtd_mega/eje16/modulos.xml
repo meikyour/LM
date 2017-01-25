@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE centro SYSTEM "modulos.dtd">
+<centro>
+<modulos>
+<modulo id="m101" nombre_modulo="BD"/>
+<modulo id="m102" nombre_modulo="SIS"/>
+<modulo id="m103" nombre_modulo="AOF"/>
+<modulo id="m201" nombre_modulo="ED"/>
+<modulo id="m202" nombre_modulo="PR"/>
+<modulo id="m203" nombre_modulo="IN"/>
+</modulos>
+<clases>
+<clase id="c001">
+<moduloref id="m101" nombre_modulo="BD"/>
+<moduloref id="m102" nombre_modulo="SIS"/>
+<moduloref id="m103" nombre_modulo="AOF"/>
+</clase>
+<clase id="c002">
+<moduloref id="m201" nombre_modulo="ED"/>
+<moduloref id="m202" nombre_modulo="PR"/>
+<moduloref id="m203" nombre_modulo="IN"/>
+</clase>
+</clases>
+</centro>

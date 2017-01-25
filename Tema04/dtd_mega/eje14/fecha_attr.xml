@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE fechas SYSTEM "fecha_attr.dtd">
+<fechas>
+
+<fecha>
+<dia>9</dia>
+<mes>11</mes>
+<any>2016</any>
+<dia_semana>miercoles</dia_semana>
+</fecha>
+
+<fecha>
+<dia>1</dia>
+<mes>1</mes>
+<any>1970</any>
+<dia_semana>martes</dia_semana>
+</fecha>
+
+</fechas>

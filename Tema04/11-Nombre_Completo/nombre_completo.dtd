@@ -1,0 +1,4 @@
+<!ELEMENT nombre_completo (nombre, apellidos)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (apellido+)>
+<!ELEMENT apellido (#PCDATA)>

@@ -1,0 +1,3 @@
+<!ELEMENT nif (dni,letra)>
+<!ELEMENT dni (#PCDATA)>
+<!ELEMENT letra (#PCDATA)>

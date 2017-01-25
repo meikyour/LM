@@ -1,0 +1,18 @@
+<!ELEMENT centro (alumnos,clase)>
+<!ELEMENT alumnos (alumno+)>
+<!ELEMENT alumno (modulo+)>
+<!ATTLIST alumno
+alumno_id ID  #REQUIRED
+id_clase IDREF #REQUIRED
+nombre CDATA #REQUIRED>
+<!ELEMENT modulo EMPTY>
+<!ATTLIST modulo
+id_modulo IDREF #REQUIRED>
+
+<!ELEMENT clase (modulo_clase+)>
+<!ATTLIST clase
+id_clase ID #REQUIRED>
+<!ELEMENT modulo_clase EMPTY>
+<!ATTLIST modulo_clase
+id_modulo ID #REQUIRED
+nombre_modulo CDATA #REQUIRED>

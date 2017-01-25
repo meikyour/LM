@@ -1,0 +1,9 @@
+<!ELEMENT alumno_modulo (modulos, alumnos)>
+<!ELEMENT modulos (modulo+)>
+<!ELEMENT modulo (#PCDATA)>
+<!ATTLIST modulo
+          id ID #REQUIRED>
+<!ELEMENT alumnos (alumno+)>
+<!ELEMENT alumno (#PCDATA)>
+<!ATTLIST alumno
+          modulo IDREF #REQUIRED>

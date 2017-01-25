@@ -1,0 +1,6 @@
+<!ELEMENT personas (persona+)>
+<!ELEMENT persona EMPTY>
+<!ATTLIST persona
+nombre CDATA #REQUIRED
+apellido1 CDATA #REQUIRED
+apellido2 CDATA #IMPLIED>

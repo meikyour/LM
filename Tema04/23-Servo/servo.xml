@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE servo SYSTEM "servo.dtd">
+<servo>
+  <maniobras>
+    <maniobra id="m1" pinza="abierta">
+      <eje movimiento="" grados=""/>
+    </maniobra>
+    <maniobra id="m2" pinza="abierta">
+      <eje movimiento="derecha" grados="160"/>
+    </maniobra>
+    <maniobra id="m3" pinza="cerrada">
+      <eje movimiento="izquierda" grados="80"/>
+    </maniobra>
+  </maniobras>
+</servo>

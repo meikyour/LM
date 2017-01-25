@@ -1,0 +1,5 @@
+<!ELEMENT pelicula (titulo, genero, sinopsis)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT genero (#PCDATA)>
+<!ELEMENT sinopsis (#PCDATA)>
+<!ENTITY entidad SYSTEM "pelicula.ent">

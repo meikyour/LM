@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE torneo SYSTEM "torneo.dtd">
+<torneo fecha="11" asociacion="IES camp">
+<semana fecha="8/11">
+<enfrentamiento>
+<fecha_partido>5/8/11</fecha_partido>
+<jugador nif="1234" letra="a" nombre="paste" fecha_nacimiento="1/2/3"/>
+<jugador nif="2345" letra="b" nombre="lero" fecha_nacimiento="2/1/3"/>
+<resultado>
+  <partido resultado="21-5"/>
+  <partido resultado="21-18"/>
+  <partido resultado="2-21"/>
+  <ganador>1234a</ganador>
+</resultado>
+</enfrentamiento>
+</semana>
+</torneo>

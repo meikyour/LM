@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nif_elem SYSTEM "nif_elem.dtd">
+<nif_elem>
+    <dni>12345678</dni>
+    <letra>X</letra>
+</nif_elem>

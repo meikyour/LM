@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE evento SYSTEM "evento.dtd">
+<evento dia_semana="x">
+  <dia>20</dia>
+  <mes>9</mes>
+  <any>2016</any>
+</evento>

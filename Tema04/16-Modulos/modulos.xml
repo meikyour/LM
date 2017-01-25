@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE modulos SYSTEM "modulos.dtd">
+<modulos>
+  <modulo id="a1">Programacion</modulo>
+  <modulo id="a2">Bases de datos</modulo>
+  <modulo id="a3">Lenguaje de marcas</modulo>
+  <modulo id="a4">Entornos de desarrollo</modulo>
+  <modulo id="a5">Ingles</modulo>
+  <modulo id="a6">Sistemas</modulo>
+</modulos>

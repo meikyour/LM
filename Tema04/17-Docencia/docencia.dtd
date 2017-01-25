@@ -1,0 +1,9 @@
+<!ELEMENT docencia (modulos, profesores)>
+<!ELEMENT modulos (modulo+)>
+<!ELEMENT modulo (#PCDATA)>
+<!ATTLIST modulo
+          id ID #REQUIRED>
+<!ELEMENT profesores (profesor+)>
+<!ELEMENT profesor (#PCDATA)>
+<!ATTLIST profesor
+          modulo IDREF #REQUIRED>

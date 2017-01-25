@@ -1,0 +1,15 @@
+<!ELEMENT centro (clase,profesores)>
+<!ELEMENT clase (modulo)>
+<!ATTLIST clase
+id_clase ID #REQUIRED>
+<!ELEMENT modulo EMPTY>
+<!ATTLIST modulo
+id_modulo ID #REQUIRED
+nombre_modulo CDATA #REQUIRED>
+<!ELEMENT profesores (profesor+)>
+<!ELEMENT profesor EMPTY>
+<!ATTLIST profesor
+profesor_id ID #REQUIRED
+nombre CDATA #REQUIRED
+id_modulo IDREF #REQUIRED
+id_clase IDREF #REQUIRED>

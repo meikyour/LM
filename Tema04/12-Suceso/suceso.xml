@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suceso SYSTEM "suceso.dtd">
+<suceso>
+ <comienzo horas="16" minutos="30" segundos="10"/>
+ <duracion>360</duracion>
+</suceso>

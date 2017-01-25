@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE banco SYSTEM "transferencias.dtd">
+<banco>
+<clientes>
+<cliente id_cuenta="A00010001019874215360" dni="134A" nombre="Angel" primer_apellido="Pastelero" segundo_apellido=""/>
+<cliente id_cuenta="A00010001015440747847" dni="134A" nombre="Angel" primer_apellido="Pastelero" segundo_apellido=""/>
+</clientes>
+
+<transferencias>
+<transferencia fecha="1/1/99" moneda="" cantidad="" tipo="normal" hora="12:20">
+<origen id_cuenta="A00010001019874215360"/>
+<destino id_cuenta="A00010001015440747847"/>
+<comentario>Hola</comentario>
+</transferencia>
+</transferencias>
+</banco>

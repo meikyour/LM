@@ -1,0 +1,34 @@
+<!ELEMENT logistica (camiones, choferes, rutas, expediciones)>
+<!ELEMENT camiones (camion+)>
+<!ELEMENT camion (matricula, kilometros, tara, volumen_maximo)>
+<!ATTLIST camion
+          id ID #REQUIRED>
+<!ELEMENT matricula (#PCDATA)>
+<!ELEMENT kilometros (#PCDATA)>
+<!ELEMENT tara (#PCDATA)>
+<!ELEMENT volumen_maximo (#PCDATA)>
+<!ELEMENT choferes (chofer+)>
+<!ELEMENT chofer (persona, fecha_nacimiento)>
+<!ATTLIST chofer
+          id ID #REQUIRED>
+<!ELEMENT persona (nombre, apellidos)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT fecha_nacimiento (#PCDATA)>
+<!ELEMENT rutas (ruta+)>
+<!ELEMENT ruta (destino, duracion)>
+<!ATTLIST ruta
+          id ID #REQUIRED>
+<!ELEMENT destino (#PCDATA)>
+<!ELEMENT duracion (#PCDATA)>
+<!ELEMENT expediciones (expedicion+)>
+<!ELEMENT expedicion (fecha)>
+<!ATTLIST expedicion
+          id ID #REQUIRED
+          camion IDREF #REQUIRED
+          chofer IDREFS #REQUIRED
+          ruta IDREF #REQUIRED>
+<!ELEMENT fecha (#PCDATA)>
+
+
+

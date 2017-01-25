@@ -1,0 +1,4 @@
+﻿<?xml version = "1.0" ?>
+<!DOCTYPE precio SYSTEM "moneda.dtd">
+<precio moneda="euros">123.4
+</precio>

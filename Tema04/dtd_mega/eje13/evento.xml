@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE fechas SYSTEM "evento.dtd">
+<fechas>
+<fecha dia="9" mes="11" any="2016" dia_semana=""/>
+<fecha dia="1" mes="1" any="1970" dia_semana="martes"/>
+<fecha dia="10" mes="11" any="2016" dia_semana="jueves"/>
+</fechas>

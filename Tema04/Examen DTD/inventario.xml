@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE inventario SYSTEM "inventario.dtd">
+<inventario fecha="14/10/2016" aula="a2">
+  <equipos>
+    <equipo id="e1">
+      <unidad_central id="c1" tipo="tower">
+        <numero_serie>f15246825p</numero_serie>
+        <memoria tipo="ram" medida="gbytes">4</memoria>
+        <fecha_garantia inicio="05/05/2012" fin=""/>
+      </unidad_central>
+    </equipo>
+  </equipos>
+</inventario>

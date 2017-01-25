@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nombre_completo SYSTEM "nombre_completo.dtd">
+<nombre_completo>
+  <nombre>adela</nombre>
+  <apellidos>
+    <apellido></apellido>
+    <apellido></apellido>
+  </apellidos>
+</nombre_completo>

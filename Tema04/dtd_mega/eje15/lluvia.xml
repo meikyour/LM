@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE estaciones SYSTEM "lluvia.dtd">
+<estaciones>
+<estacion id="e001">
+<datos id="d101" fecha="10/11/16" precipitacion="100" unidad="milimetros"></datos>
+<datos id="d141" fecha="1/1/1970" precipitacion="0" unidad="milimetros"></datos>
+<datos id="d121" fecha="9/11/16" precipitacion="336" unidad="milimetros"></datos>
+</estacion>
+
+<estacion id="e002">
+<datos id="d201" fecha="10/11/16" precipitacion="100" unidad="milimetros"></datos>
+<datos id="d241" fecha="1/1/1970" precipitacion="0" unidad="milimetros"></datos>
+<datos id="d221" fecha="9/11/16" precipitacion="336" unidad="milimetros"></datos>
+</estacion>
+</estaciones>

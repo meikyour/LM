@@ -1,0 +1,8 @@
+<!-- Declaracion de entidades -->
+<!ENTITY sinopsis SYSTEM "pelicula.ent">
+
+<!-- Codigo XML -->
+<!ELEMENT pelicula (titulo, genero, sinopsis)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT genero (#PCDATA)>
+<!ELEMENT sinopsis (#PCDATA)>

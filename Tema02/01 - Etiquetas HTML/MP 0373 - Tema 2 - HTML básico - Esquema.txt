@@ -1,0 +1,206 @@
+﻿Etiquetas básicas HTML
+======================
+ - Etiquetas estructurales
+ - Etiquetas de expresión
+ - Etiquetas de formato
+ - Etiquetas semánticas
+ - Otras etiquetas de gestión de texto
+
+----------
+
+Etiquetas estructurales
+=======================
+ - ?xml     - Directiva de prólogo de documento XML. Identifica documentos XHTML
+ - doctype  - No es una etiqueta sino una directiva, debe aparecer en la primera
+              linea del documento e indica la tecnología utilizada por el
+              documento.
+              Si no aparece esta marca los navegadores actuales asumen que el
+              documento está escrito en HTML 4.01 Transitional.
+ - html     - Delimita el documento HTML.
+              Debe indicar el idioma del documento con su atributo "lang".
+              Contiene únicamente dos elementos anidados: <head> y <body>.
+ - head     - Es el primero de los elementos dependientes de <html> y contiene
+              los datos de configuración y administración del documento.
+ - title    - Contiene el título del documento. Cada documento debe tener un
+              título propio.
+              Los navegadores modernos muestran el título en la pestaña asociada
+              al documento.
+ - meta     - Permite indicar información adicional de ayuda al navegador, al
+              indexador o al motor de búsqueda.
+              Tiene atributos que permiten especificar información en forma
+              de pares clave/valor.
+                <meta name="author" content="joanpaon@gmail.com"/>
+ - encoding - Todo documento debe indicar la codificación utilizada. Para este
+              cometido la sintaxis cambia:
+              > HTML  4.01
+                <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+              > XHTML 1.0
+                <?xml version="1.0" encoding="UTF-8" ?>
+              > HTML  5.0
+                <meta charset="UTF-8" />
+ - body     - Es el segundo de los elementos dependientes de <html> y contiene
+              la estructura y los datos que se visualizarán del documento.
+ - comment  - <!--
+                Esto es un comentario
+                -->
+
+----------
+
+Etiquetas de expresión
+======================
+ - em     - Muestra un texto enfatizado
+ - strong - Define un texto importante
+ - code   - Define un trozo de código informático
+ - samp   - Define una muestra de la salida de un programa informático
+ - kbd    - Define una entrada de teclado
+ - var    - Define una variable
+
+----------
+
+Etiquetas de formato
+====================
+ - i     - Define una parte de texto expresado en otra voz o intención.
+           Se usa para indicar:
+           > Un término técnico
+           > Una expresión en otro lenguaje
+           > Un pensamiento
+           > El nombre de un barco, etc.
+           Debería usarse sólo si no existe otra etiqueta con un significado
+           semántico más apropiado.
+ - b     - De acuerdo con la especificación de HTML 5, la etiqueta <b> debe ser
+           utilizada como último recurso y ninguna otra etiqueta resulta más 
+           apropiada.
+           La especificación HTML 5 establece que:
+           > Los títulos deben indicarse con las etiquetas <h1> a <h6>
+           > El texto enfatizado se denota con la etiqueta <em>
+           > El texto importante debería definirse con la etiqueta <strong>
+           > El texto marcado o resaltado debe utilizar la etiqueta <mark>.
+ - mark  - Indica texto marcado o resaltado.
+ - small - Define un texto más pequeño y comentarios al margen
+ - sub   - Define texto en subíndice
+ - sup   - Define texto en superíndice
+ - ins   - Define un texto que se ha insertado en un documento.
+ - del   - Define un texto que ha sido borrado de un documento.
+
+----------
+
+Etiquetas semánticas
+====================
+ - pre     - Define un texto preformateado.
+             El texto con la marca <pre> se muestra con fuente de tamaño fijo,
+             que normalmente es "Courier", respetando los espaciadores.
+ - cite    - La etiqueta <cite> define el título de una obra (Un libro,
+             una canción, una película, un programa de televisión, una pintura,
+             una escultura, etc.).
+             El nombre de una persona NO se considera como título de una obra.
+ - q       - La marca <q> define una cita corta.
+             Los navegadores añaden normalmente comillas al texto citado.
+ - abbr    - La marca <abbr> define una abreviatura o un acrónimo, como "Sr.",
+             "Avda.", "ADN" o "PHP".
+             Una abreviatura o un acrónimo son las dos versiones acortadas de
+             algo más que a menudo es representado como una serie de letras.
+             Marcar las abreviaturas puede dar información útil a los
+             navegadores, a los sistemas de traducción y a los motores de
+             búsqueda.
+ - dfn     - La etiqueta <dfn> representa la definición de un término en HTML.
+             Cerca de la etiqueta <dfn> debe aparecer también la explicación
+             del término indicado en la marca <dfn>.
+ - address - La etiqueta <address> define la información de contacto del autor o
+             propietario de un documento o un artículo.
+             Si el elemento <address> está en el interior del elemento <body>,
+             representa la información de contacto para el documento.
+             Si el elemento <address> está en el interior de un elemento
+             <article>, representa la información de contacto de ese artículo.
+             El texto en el elemento <address> aparece normalmente en cursiva.
+             La mayoría de los navegadores le darán un salto de línea antes y
+             después de la aparición del elemento de dirección.
+ - bdo     - La etiqueta <bdo> se utiliza para establecer anular la dirección de
+             escritura del texto actual.
+ - u       - La etiqueta <u> representa un texto que debe ser estilísticamente
+             diferente del texto normal, como palabras mal escritas o nombres
+             propios en Chino.
+ - s       - La etiqueta <s> especifica texto que ya no es correcto, exacto o
+             pertinente.
+             La etiqueta <s> no debe utilizarse para definir el texto
+             reemplazado o eliminado, para ese cometido se debe utilizar la
+             etiqueta <del>.
+ - time    - La marca <time> define una fecha/hora legible por las personas.
+             Este elemento también puede ser utilizado para codificar una
+             fecha/hora legible por máquinas, con lo cual los agentes de usuario
+             pueden ofrecer la agregación de recordatorios de cumpleaños o
+             eventos programados en el calendario del usuario, y los motores de
+             búsqueda pueden producir resultados de búsqueda más inteligentes.
+ - wbr     - El elemento <wbr> (Word Break Oportunity) especifica dónde puede
+             romperse una palabra muy larga que no cabe en la linea actual.
+
+----------
+
+Otras etiquetas de gestión de texto
+===================================
+ - h1 .. h6 - Se utilizan para marcar los títulos HTML.
+              El elemento <h1> define el título más importante, mientras que el
+              elemento <h6> define el título menos importante.
+ - br       - Inserta un sencillo salto de línea.
+ - hr       - La etiqueta <hr> define una ruptura temática en una página HTML,
+              por ejemplo, un cambio de tema. El elemento <hr> se utiliza para
+              separar o cambiar el contenido de una página HTML.
+ - p        - La etiqueta <p> define un párrafo.
+              Los navegadores añaden automáticamente un espacio de margen antes
+              y después de cada elemento <p>.
+              Los márgenes se pueden modificar con CSS.
+ - span     - La etiqueta <span> se utiliza para agrupar elementos en la misma
+              línea.
+              La etiqueta <span> no ofrece ningún cambio visual por sí misma,
+              sin embargo proporciona una manera de añadir un ámbito particular
+              o meter entre paréntesis una parte de un texto o de un documento.
+ - div      - La etiqueta <div> define una división o sección en un documento
+              HTML.
+              La etiqueta <div> se utiliza para agrupar bloques de elementos que
+              serán formateados con CSS.
+
+----------
+
+Enlaces e imágenes
+==================
+ - a    - La etiqueta <a> define un hipervínculo, que se utiliza para enlazar
+          contenidos. Para ello es necesario marcar un destino y definir un
+          enlace a ese destino desde el lugar origen.
+          MARCA DESTINO
+          =============
+            <a id="marca">Contenido anclado</a>
+          ANCLA ORIGEN
+          ============
+            * Local    - <a href="#marca">Contenido enlazado</a>
+            * Servidor - <a href="pagina.html/#marca">Contenido enlazado</a>
+            * Lejano   - <a href="url">Contenido enlazado</a>
+          ASPECTO
+          =======
+          Por defecto, el texto enlazado aparecerá subrayado:
+            * Enlace no visitado - Azul
+            * Enlace visitado    - Púrpura
+            * Vínculo activo     - Rojo
+ - img  - La etiqueta <img> define una imagen en una página HTML.
+          La etiqueta <img> tiene dos atributos requeridos: "src" y "alt".
+          Técnicamente las imágenes no forman parte del documento HTML. Más bien
+          las imágenes están vinculadas a las páginas HTML.
+          La etiqueta <img> crea un espacio de visualización en el navegador
+          para la imagen referenciada.
+ - map  - El elemento <map> se utiliza para definir de mapas de imagen en el
+          lado del cliente. Un mapa de imagen es una imagen con zonas
+          seleccionables.
+          El atributo "name" de la etiqueta <map> que define el mapa de imagen
+          se asocia con el atributo "usemap" de la etiqueta <img> que define la
+          imagen que se va a utilizar con el mapa para crear la relación entre
+          la imagen y el mapa.
+          El elemento <map> contiene una serie de elementos <area> que definen
+          las áreas en las que se puede hacer clic en el mapa de imagen.
+ - area - El elemento <area> define una zona dentro de un mapa de imagen.
+          El elemento <area> está siempre anidado dentro de la etiqueta <map>.
+          El elemento <area> utiliza su atributo "shape" para definir zonas
+          geométricas dentro de la imagen:
+            - Rectángulo - rect    - <x, y> origen + <x, y> destino diagonal.
+            - Círculo    - circle  - <x, y> centro + <radio>
+            - Polígono   - poly    - <x, y> de cada punto.
+                                     Inicio y final se cierran automáticamente
+            - Restante   - default - Referencia las zonas de la imagen que no
+                                     pertenecen a ningún otro elemento <area>

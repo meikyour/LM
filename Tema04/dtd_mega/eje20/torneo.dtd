@@ -1,0 +1,22 @@
+<!ELEMENT torneo (semana)>
+<!ATTLIST torneo 
+fecha CDATA #REQUIRED
+asociacion CDATA #IMPLIED>
+<!ELEMENT semana (enfrentamiento)>
+<!ATTLIST semana 
+fecha CDATA #REQUIRED>
+<!ELEMENT enfrentamiento (fecha_partido, jugador, jugador, resultado)>
+<!ELEMENT fecha_partido (#PCDATA)>
+<!ELEMENT jugador EMPTY>
+
+<!ATTLIST jugador
+nif CDATA #REQUIRED
+letra CDATA #REQUIRED
+nombre CDATA #REQUIRED
+fecha_nacimiento CDATA #REQUIRED>
+
+<!ELEMENT resultado (partido, partido, partido, ganador)>
+<!ELEMENT partido EMPTY>
+<!ATTLIST partido
+resultado CDATA #REQUIRED>
+<!ELEMENT ganador (#PCDATA)>

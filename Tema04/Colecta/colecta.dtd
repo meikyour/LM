@@ -1,0 +1,13 @@
+<!ELEMENT colecta (donativos, personas)>
+<!ATTLIST colecta
+          objetivo CDATA #REQUIRED>
+<!ELEMENT donativos (donativo+)>
+<!ELEMENT donativo (#PCDATA)>
+<!ATTLIST donativo
+          persona IDREF #REQUIRED>
+<!ELEMENT personas (persona+)>
+<!ELEMENT persona (nombre, apellido, apellido?)>
+<!ATTLIST persona
+          id ID #REQUIRED>
+<!ELEMENT nombre   (#PCDATA)>
+<!ELEMENT apellido (#PCDATA)>

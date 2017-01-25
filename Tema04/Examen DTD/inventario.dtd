@@ -1,0 +1,21 @@
+<!ELEMENT inventario (equipos)>
+<!ATTLIST inventario 
+          fecha CDATA #REQUIRED
+          aula  CDATA #REQUIRED>
+<!ELEMENT equipos (equipo)>
+<!ELEMENT equipo (unidad_central)>
+<!ATTLIST equipo
+          id ID #REQUIRED>
+<!ELEMENT unidad_central (numero_serie, memoria, fecha_garantia)>
+<!ATTLIST unidad_central
+          id ID #REQUIRED
+          tipo CDATA #REQUIRED>
+<!ELEMENT numero_serie (#PCDATA)>
+<!ELEMENT memoria (#PCDATA)>
+<!ATTLIST memoria
+          tipo CDATA #FIXED
+          medida #REQUIRED>
+<!ELEMENT fecha_garantia EMPTY>
+<!ATTLIST fecha_garantia
+          inicio CDATA #REQUIRED
+          fin CDATA IMPLIED>

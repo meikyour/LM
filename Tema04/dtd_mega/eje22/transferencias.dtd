@@ -1,0 +1,24 @@
+<!ELEMENT banco (clientes,transferencias)>
+<!ELEMENT clientes (cliente+)>
+<!ELEMENT cliente EMPTY>
+<!ATTLIST cliente
+      id_cuenta ID #REQUIRED
+      dni CDATA #REQUIRED
+      nombre CDATA #REQUIRED
+      primer_apellido CDATA #REQUIRED
+      segundo_apellido CDATA #IMPLIED>
+<!ELEMENT transferencias (transferencia+)>
+<!ELEMENT transferencia (origen,destino,comentario)>
+<!ATTLIST transferencia
+ fecha CDATA #REQUIRED
+moneda CDATA #REQUIRED
+cantidad CDATA #REQUIRED
+tipo CDATA #REQUIRED
+hora CDATA #REQUIRED>
+<!ELEMENT origen EMPTY>
+<!ATTLIST origen
+id_cuenta IDREF #REQUIRED>
+<!ELEMENT destino EMPTY>
+<!ATTLIST destino
+id_cuenta IDREF #REQUIRED>
+<!ELEMENT comentario (#PCDATA)>

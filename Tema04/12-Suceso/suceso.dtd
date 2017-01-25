@@ -1,0 +1,7 @@
+<!ELEMENT suceso (comienzo, duracion)>
+<!ELEMENT comienzo EMPTY>
+<!ATTLIST comienzo 
+          horas  CDATA #REQUIRED
+          minutos CDATA #REQUIRED
+          segundos CDATA #REQUIRED>
+<!ELEMENT duracion (#PCDATA)>

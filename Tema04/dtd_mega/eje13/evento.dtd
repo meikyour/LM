@@ -1,0 +1,7 @@
+<!ELEMENT fechas (fecha+)>
+<!ELEMENT fecha EMPTY>
+<!ATTLIST fecha
+      dia CDATA #REQUIRED
+      mes CDATA #REQUIRED
+      any CDATA #REQUIRED
+      dia_semana CDATA #IMPLIED>

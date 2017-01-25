@@ -1,0 +1,9 @@
+<!ELEMENT altas (any+)>
+<!ELEMENT any (persona*)>
+<!ATTLIST any
+fecha CDATA #REQUIRED>
+<!ELEMENT persona EMPTY>
+<!ATTLIST persona
+      nif CDATA #REQUIRED
+      nombre CDATA #REQUIRED
+      fecha_nacimiento CDATA #REQUIRED>

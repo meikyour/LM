@@ -1,0 +1,14 @@
+<!ELEMENT centro (modulos,clases)>
+<!ELEMENT modulos (modulo+)>
+<!ELEMENT modulo EMPTY>
+<!ATTLIST modulo
+      id ID #REQUIRED
+      nombre_modulo CDATA #REQUIRED>
+<!ELEMENT clases (clase+)>
+<!ELEMENT clase (moduloref+)>
+<!ATTLIST clase
+id ID #REQUIRED>
+<!ELEMENT moduloref EMPTY>
+<!ATTLIST moduloref
+id IDREF #REQUIRED
+nombre_modulo CDATA #REQUIRED>

@@ -1,0 +1,8 @@
+<!ENTITY vuelo SYSTEM "destino.txt">
+<!ELEMENT vuelo (origen, destino)>
+<!ELEMENT origen (EMPTY)>
+<!ATTLIST origen 
+                      aeropuerto origen CDDATA #FIXED "VALENCIA">
+<!ELEMENT destino (EMPTY)>
+<!ATTLIST destino 
+                      aeropuerto destino CDDATA "LONDRES">

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE logistica SYSTEM "logistica.dtd">
+<logistica>
+  <camiones>
+    <camion id="c1">
+      <matricula>4698D</matricula>
+      <kilometros>260000</kilometros>
+      <tara>3600</tara>
+      <volumen_maximo>3600</volumen_maximo>
+    </camion>
+    <camion id="c2">
+      <matricula>4698D</matricula>
+      <kilometros>260000</kilometros>
+      <tara>3600</tara>
+      <volumen_maximo>3200</volumen_maximo>
+    </camion>
+    <camion id="c3">
+      <matricula>8725D</matricula>
+      <kilometros>300000</kilometros>
+      <tara>3600</tara>
+      <volumen_maximo>3200</volumen_maximo>
+    </camion>
+  </camiones>
+  <choferes>
+    <chofer id="x1">
+      <persona>
+        <nombre>Manolo</nombre>
+        <apellidos>Garcia Pele</apellidos>
+      </persona>
+      <fecha_nacimiento>01/06/1976</fecha_nacimiento>
+    </chofer>
+    <chofer id="x2">
+      <persona>
+        <nombre>Ximo</nombre>
+        <apellidos>Lopez Marquez</apellidos>
+      </persona>
+      <fecha_nacimiento>01/06/1976</fecha_nacimiento>
+    </chofer>
+    <chofer id="x3">
+      <persona>
+        <nombre>Felipe</nombre>
+        <apellidos>Marco Gracia</apellidos>
+      </persona>
+      <fecha_nacimiento>01/06/1976</fecha_nacimiento>
+    </chofer>
+  </choferes>
+  <rutas>
+    <ruta id="r1">
+      <destino>Roma</destino>
+      <duracion>48 horas</duracion>
+    </ruta>
+    <ruta id="r2">
+      <destino>Paris</destino>
+      <duracion>12 horas</duracion>
+    </ruta>
+    <ruta id="r3">
+      <destino>Sevilla</destino>
+      <duracion>6 horas</duracion>
+    </ruta>
+  </rutas>
+  <expediciones>
+    <expedicion id="e1" camion="c1" chofer="x3 x1" ruta="r2">
+      <fecha>02/11/2016</fecha>
+    </expedicion>
+    <expedicion id="e3" camion="c2" chofer="x1 x2" ruta="r3">
+      <fecha>01/11/2016</fecha>
+    </expedicion>
+    <expedicion id="e2" camion="c3" chofer="x2" ruta="r1">
+      <fecha>06/11/2016</fecha>
+    </expedicion>
+  </expediciones>
+</logistica>

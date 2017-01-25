@@ -1,0 +1,4 @@
+<!ELEMENT modulos (modulo+)>
+<!ELEMENT modulo (#PCDATA)>
+<!ATTLIST modulo
+          id ID #REQUIRED>

@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE torneo_plus SYSTEM "torneo_plus.dtd">
+<torneo_plus ganador="j01">
+  <asociacion>
+       Asociación de Tenis de Mesa - Camp de Morvedre  
+  </asociacion>
+  <fecha dia="7" mes="1" any="2012"/>
+  <jugadores>
+    <jugador ref="j01">
+      <nif numero="12345678" letra="X"/>
+      <persona>
+        <nombre>Mariano</nombre>
+        <apellido>Martínez</apellido>
+        <apellido>Moscardó</apellido>
+      </persona>
+      <fecha dia="7" mes="1" any="2012"/>
+    </jugador>
+    <jugador ref="j02">
+      <nif numero="12345678" letra="X"/>
+      <persona>
+        <nombre>Ricardo</nombre>
+        <apellido>Rubio</apellido>
+        <apellido>Romero</apellido>
+      </persona>
+      <fecha dia="7" mes="1" any="2012"/>
+    </jugador>
+  </jugadores>
+  <enfrentamientos>
+    <enfrentamiento ref="e01" ganador="j01">
+      <partida ref="e01p01">
+        <puntos jugador="j01">12</puntos>
+        <puntos jugador="j02">21</puntos>
+      </partida>
+      <partida ref="e01p02">
+        <puntos jugador="j01">21</puntos>
+        <puntos jugador="j02">17</puntos>
+      </partida>
+      <partida ref="e01p03">
+        <puntos jugador="j01">21</puntos>
+        <puntos jugador="j02">15</puntos>
+      </partida>
+    </enfrentamiento>
+    <enfrentamiento ref="e02" ganador="j01">
+      <partida ref="e02p01">
+        <puntos jugador="j01">12</puntos>
+        <puntos jugador="j02">21</puntos>
+      </partida>
+      <partida ref="e02p02">
+        <puntos jugador="j01">21</puntos>
+        <puntos jugador="j02">17</puntos>
+      </partida>
+      <partida ref="e02p03">
+        <puntos jugador="j01">21</puntos>
+        <puntos jugador="j02">15</puntos>
+      </partida>
+    </enfrentamiento>
+    <enfrentamiento ref="e03" ganador="j01">
+      <partida ref="e03p01">
+        <puntos jugador="j01">12</puntos>
+        <puntos jugador="j02">21</puntos>
+      </partida>
+      <partida ref="e03p02">
+        <puntos jugador="j01">21</puntos>
+        <puntos jugador="j02">17</puntos>
+      </partida>
+      <partida ref="e03p03">
+        <puntos jugador="j01">21</puntos>
+        <puntos jugador="j02">15</puntos>
+      </partida>
+    </enfrentamiento>
+    <enfrentamiento ref="e04" ganador="j01">
+      <partida ref="e04p01">
+        <puntos jugador="j01">12</puntos>
+        <puntos jugador="j02">21</puntos>
+      </partida>
+      <partida ref="e04p02">
+        <puntos jugador="j01">21</puntos>
+        <puntos jugador="j02">17</puntos>
+      </partida>
+      <partida ref="e04p03">
+        <puntos jugador="j01">21</puntos>
+        <puntos jugador="j02">15</puntos>
+      </partida>
+    </enfrentamiento>
+  </enfrentamientos>
+</torneo_plus>

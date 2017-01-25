@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE centro SYSTEM "alumno_modulo.dtd">
+<centro>
+<alumnos>
+<alumno alumno_id="a001" id_clase="c001" nombre="Angel">
+<modulo id_modulo="m101"/>
+<modulo id_modulo="m102"/>
+</alumno>
+</alumnos>
+<clase id_clase="c001">
+<modulo_clase id_modulo="m101" nombre_modulo="BD"/>
+<modulo_clase id_modulo="m102" nombre_modulo="ED"/>
+</clase>
+</centro>

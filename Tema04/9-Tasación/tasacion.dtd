@@ -1,0 +1,3 @@
+<!ELEMENT tasacion (#PCDATA)>
+<!ATTLIST tasacion
+          moneda CDATA #FIXED "euros">

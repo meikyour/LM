@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sucursal SYSTEM "transferencias.dtd">
+<sucursal>
+  <transferencias>
+    <transferencia id="t01" moneda="euro" prioridad="" ordenante="" destinatario="">
+      <importe>320</importe>
+      <concepto>Mensualidad comunidad</concepto>
+      <origen entidad="9653" oficina="1256" control="02" numero_cuenta="5542689662"/>
+      <destino entidad="2677" oficina="5896" control="89" numero_cuenta="4522478934"/>
+    </transferencia>
+  </transferencias>
+  <clientes>
+    <cliente>
+    </cliente>
+  </clientes>
+</sucursal>

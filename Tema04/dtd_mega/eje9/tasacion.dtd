@@ -1,0 +1,6 @@
+<!ELEMENT tasacion (articulo+)>
+<!ELEMENT articulo (#PCDATA)>
+<!ATTLIST articulo
+id ID #REQUIRED
+moneda CDATA #FIXED "euros"
+cantidad CDATA #REQUIRED>

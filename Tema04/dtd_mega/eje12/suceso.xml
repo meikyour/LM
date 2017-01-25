@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE sucesos SYSTEM "suceso.dtd">
+<sucesos>
+<suceso duracion="" unidad="segundos">
+<inicio hora="" minuto="" segundo=""/>
+</suceso>
+<suceso duracion="" unidad="segundos">
+<inicio hora="" minuto="" segundo=""/>
+</suceso>
+<suceso duracion="" unidad="segundos">
+<inicio hora="" minuto="" segundo=""/>
+</suceso>
+
+</sucesos>

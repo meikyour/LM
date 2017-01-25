@@ -1,0 +1,31 @@
+<!ELEMENT torneo_plus (asociacion, fecha, jugadores, enfrentamientos)>
+<!ATTLIST torneo_plus
+          ganador IDREF #REQUIRED>
+<!ELEMENT asociacion (#PCDATA)>
+<!ELEMENT fecha EMPTY>
+<!ATTLIST fecha
+          dia CDATA #REQUIRED
+          mes CDATA #REQUIRED
+          any CDATA #REQUIRED>
+<!ELEMENT jugadores (jugador, jugador+)>
+<!ELEMENT jugador (nif, persona, fecha)>
+<!ATTLIST jugador
+          ref ID #REQUIRED>
+<!ELEMENT nif EMPTY>
+<!ATTLIST nif
+          numero CDATA #REQUIRED
+          letra  CDATA #REQUIRED>
+<!ELEMENT persona (nombre, apellido, apellido?)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT enfrentamientos (enfrentamiento+)>
+<!ELEMENT enfrentamiento (partida, partida, partida)>
+<!ATTLIST enfrentamiento
+          ref      ID    #REQUIRED
+          ganador  IDREF #REQUIRED>
+<!ELEMENT partida (puntos, puntos)>  
+<!ATTLIST partida
+          ref      ID    #REQUIRED>        
+<!ELEMENT puntos (#PCDATA)> 
+<!ATTLIST puntos
+          jugador  IDREF #REQUIRED> 

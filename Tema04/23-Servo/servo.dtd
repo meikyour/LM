@@ -1,0 +1,10 @@
+<!ELEMENT servo (maniobras)>
+<!ELEMENT maniobras (maniobra+)>
+<!ELEMENT maniobra (eje)>
+<!ATTLIST maniobra 
+          id ID #REQUIRED
+          pinza CDATA #REQUIRED>
+<!ELEMENT eje EMPTY>
+<!ATTLIST eje
+          movimiento CDATA #IMPLIED
+          grados CDATA #IMPLIED>

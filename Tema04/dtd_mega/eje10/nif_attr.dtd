@@ -1,0 +1,5 @@
+<!ELEMENT nifs (nif+)>
+<!ELEMENT nif EMPTY>
+<!ATTLIST nif
+dni CDATA #REQUIRED
+digito_de_control CDATA #REQUIRED>

@@ -1,0 +1,10 @@
+<!ELEMENT sucesos (suceso+)>
+<!ELEMENT suceso (inicio)>
+<!ATTLIST suceso
+      duracion CDATA #REQUIRED
+      unidad CDATA #FIXED 'segundos'>
+<!ELEMENT inicio EMPTY>
+<!ATTLIST  inicio
+      hora CDATA #REQUIRED
+      minuto CDATA #REQUIRED
+      segundo CDATA #REQUIRED>

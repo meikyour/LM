@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE docencia SYSTEM "docencia.dtd">
+<docencia>
+  <modulos>
+    <modulo id="a1">Programacion</modulo>
+    <modulo id="a2">Bases de datos</modulo>
+    <modulo id="a3">Lenguaje de marcas</modulo>
+    <modulo id="a4">Entornos de desarrollo</modulo>
+    <modulo id="a5">Ingles</modulo>
+    <modulo id="a6">Sistemas</modulo>
+  </modulos>
+  <profesores>
+    <profesor modulo="a1">Jose Antonio Pacheco</profesor>
+    <profesor modulo="a6">Miguel Villar</profesor>
+    <profesor modulo="a2">Francisco Blasco</profesor>
+    <profesor modulo="a5">Merce Dantes</profesor>
+  </profesores>
+</docencia>
