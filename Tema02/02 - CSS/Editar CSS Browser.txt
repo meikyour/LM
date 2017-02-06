@@ -1,0 +1,31 @@
+Internet Explorer
+=================
+
+ > Pincha sobre el menú Herramientas y después sobre la opción Opciones de Internet
+ > En la pestaña General que se muestra, pulsa sobre el botón Accesibilidad que se encuentra dentro de la sección Apariencia
+ > En la nueva ventana que aparece, activa la opción Formatear los documentos con mi hoja de estilos y selecciónala pulsando sobre el botón Examinar...
+ > Pulsa Aceptar hasta volver al navegador
+
+Firefox
+=======
+
+ > Guarda tu hoja de estilos en un archivo llamado userContent.css
+ > Entra en el directorio de tu perfil de usuario de Firefox. En los sistemas operativos Windows este directorio se encuentra normalmente en C:\Documents and Settings\[tu_usuario_de_windows]\Datos de programa\Mozilla\Firefox\Profiles\[cadena_aleatoria_de_letras_y_numeros].default
+ > Copia la hoja de estilos userContent.css en el directorio chrome de tu perfil
+ > Reinicia el navegador para que se apliquen los cambios
+
+Safari
+======
+
+ > Pincha sobre el menú Editar y después sobre la opción Preferencias
+ > Selecciona la sección Avanzado
+ > Pincha sobre la lista desplegable llamada Hoja de estilos y selecciona la opción Otra...
+ > En la ventana que aparece, selecciona tu hoja de estilos
+
+Opera
+=====
+
+ > Pincha sobre el menú Herramientas y después sobre la opción Preferencias
+ > Selecciona la pestaña Avanzado y pulsa sobre el botón Opciones de estilo...
+ > Pulsa sobre el botón Seleccionar... para seleccionar la hoja de estilos
+ > Pulsa Aceptar hasta volver al navegador

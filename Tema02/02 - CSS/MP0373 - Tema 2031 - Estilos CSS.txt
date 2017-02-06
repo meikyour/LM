@@ -1,0 +1,53 @@
+CSS
+===
+
+Hojas de Estilo en Cascada (Cascading Style Sheets)
+
+¿Qué es CSS?
+============
+
+Es un mecanismo simple que describe cómo se va a mostrar un documento en la pantalla, o 
+cómo se va a imprimir, o incluso cómo va a ser pronunciada la información presente en 
+ese documento a través de un dispositivo de lectura. 
+
+Esta forma de descripción de estilos ofrece a los desarrolladores el control total 
+sobre estilo y formato de sus documentos.
+
+¿Para qué sirve?
+================
+
+CSS se utiliza para dar estilo a documentos HTML y XML, separando el contenido de la 
+presentación. 
+
+Los Estilos definen la forma de mostrar los elementos HTML y XML. 
+
+CSS permite a los desarrolladores Web controlar el estilo y el formato de múltiples 
+páginas Web al mismo tiempo. 
+
+Cualquier cambio en el estilo marcado para un elemento en la CSS afectará a todas las 
+páginas vinculadas a esa CSS en las que aparezca ese elemento.
+
+Tipos de estilos
+================
+
+ > inline   - Aparecen en el código HTML.
+            - Su alcance es específico - sólo etiquetas afectadas.
+		    - Se aplican mediante el atributo "style".
+		    - No son reutilizables.
+		    - No hay separación entre estructura y presentación.
+		    - Prioridad 1
+ > embedded - Aparecen en el código HTML - Al final del "head".
+            - Su alcance es local - todas las etiquetas de la página en la que se encuentra.
+		    - Se aplican mediante selectores CSS.
+		    - No son reutilizables.
+		    - Separación lógica pero no física de estructura y presentación 
+		    - Prioridad 2
+ > css      - Aparecen en un documento diferente al del código HTML - *.css
+            - Su alcance es global - Todas las etiquetas de todas las páginas.
+		    - Se aplican mediante selectores CSS.
+		    - Son reutilizables. Mantenimiento óptimo. Presentación homogénea.
+		    - Separación lógica y física de estructura y presentación 
+		    - Prioridad 3
+
+
+ 

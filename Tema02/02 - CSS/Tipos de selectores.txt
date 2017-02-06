@@ -1,0 +1,55 @@
+Tipos de selectores
+===================
+ - Discriminador    - Identifica un elemento o grupo de elementos.
+ - Pseudo Clase     - Identifica un estado especial de un elemento.
+ - Pseudo Elemento  - Identifica partes especificas de un elemento.
+ 
+Discriminadores
+=============== 
+ [Ejercicios] 
+ 
+Pseudo Classes CSS 
+==================
+Selector              Ejemplo               Descripción de la selección
+--------------------- --------------------- ----------------------------------------------
+:active               a:active              Link activo
+:checked              input:checked         Cada elemento <input> marcado
+:disabled             input:disabled        Cada elemento <input> inactivo
+:empty                p:empty               Cada elemento <p> sin hijos
+:enabled              input:enabled         Cada elemento <input> activo
+:first-child          p:first-child         Cada elemento <p> que es primer hijo
+:first-of-type        p:first-of-type       Cada primer elemento <p> de su padre
+:focus                input:focus           El elemento <input> que tiene el foco
+:hover                a:hover               Enlaces con el ratón encima
+:in-range             input:in-range        Elementos <input> con valor en rango
+:invalid              input:invalid         Elementos <input> con valor no válido
+:lang(language)       p:lang(it)            Cada elemento <p> con lang empezando con "it"
+:last-child           p:last-child          Cada elemento <p> que es el último hijo
+:last-of-type         p:last-of-type        Cada último elemento <p> de su padre
+:link                 a:link                Todos los enlaces no visitados
+:not(selector)        :not(p)               Cada elemento que no es <p>
+:nth-child(n)         p:nth-child(2)        Cada elemento <p> que es 2º hijo
+:nth-last-child(n)    p:nth-last-child(2)   Cada elemento <p> que es 2º hijo desde final
+:nth-last-of-type(n)  p:nth-last-of-type(2) Cada 2º hijo <p> desde final
+:nth-of-type(n)       p:nth-of-type(2)      Cada 2º hijo <p>
+:only-of-type         p:only-of-type        Cada unico hijo <p> de su padre
+:only-child           p:only-child          Cada unico hijo de su padre que sea <p> 
+:optional             input:optional        Elementos <input> sin atributo "required"
+:out-of-range         input:out-of-range    Elementos <input> con valor fuera de rango
+:read-only            input:read-only       Elementos <input> con atributo "readonly"
+:read-write           input:read-write      Elementos <input> sin atributo "readonly"
+:required             input:required        Elementos <input> con atributo "required"
+:root                 root                  Elemento raiz del documento
+:target               #news:target          Elemento #news activo
+:valid                input:valid           Todos los elementos <input> con valor válido
+:visited              a:visited             Todos los links visitados
+
+Pseudo Elementos CSS
+====================
+Selector              Ejemplo               Descripción
+--------------------- --------------------- ---------------------------------------------
+::after               p::after              Inserta contenido tras cada <p>
+::before              p::before             Inserta contenido ante cada <p>
+::first-letter        p::first-letter       Selecciona la primera letra de cada <p>
+::first-line          p::first-line         Selecciona la primera linea de cada <p>
+::selection           p::selection          Selecciona la porción seleccionada de <p>

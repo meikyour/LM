@@ -1,0 +1,32 @@
+Contenido de un documento CSS
+=============================
+
+Regla CSS 1
+Regla CSS 2
+Regla CSS 3
+...
+
+ > Las reglas se aplican en el orden en que se encuentran, de arriba a abajo.
+ > Entre dos reglas diferentes que actuan sobre el mismo estilo se impone la posterior.
+
+Estructura de una regla CSS
+===========================
+
+<selector> {
+  <declaración 1>
+  <declaración 2>
+  <declaración 3>
+  ...
+}
+
+ > selector     - Mecanismo que permite identificar a los elementos HTML 
+                a los que se va a aplicar los estilos de la regla.
+ > declaración  - Estilo a aplicar a los elementos HTML seleccionados
+ 
+Estructura de una declaración CSS
+=================================
+
+<nombre de propiedad>: <valor de propiedad>;
+
+ > nombre       - Identifica la propiedad que se deasea aplicar
+ > valor        - Los valores numéricos van siempre con la unidad
