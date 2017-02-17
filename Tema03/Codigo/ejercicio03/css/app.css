@@ -1,0 +1,34 @@
+p:first-child{
+  font-family: "Times New Roman";
+  font-size: 20px;
+  color: #fff;
+  background-color: #333;
+}
+
+p:nth-child(2){
+  font-family: "Open Sans";
+  font-size: 20px;
+  color: #fff;
+  background-color: #333;
+}
+
+p:nth-child(3){
+  font-family: "Segoe Script";
+  font-size: 20px;
+  color: #fff;
+  background-color: #333;
+}
+
+p:last-child{
+  font-family: Symbol;
+  font-size: 20px;
+  color: #fff;
+  background-color: #333;
+}
+
+p: last-child{
+  font-family: "Courier New";
+  font-size: 20px;
+  color: #fff;
+  background-color: #333;
+}
